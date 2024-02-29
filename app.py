@@ -15,7 +15,7 @@ def hello():
 def about():
     return render_template('about.html')
 
-@app.route('/aboutCSS')
+@app.route('/about-css')
 def aboutcss():
     return render_template('about-css.html')
 
